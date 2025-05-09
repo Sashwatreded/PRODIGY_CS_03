@@ -1,35 +1,53 @@
-# PRODIGY_CS_03
+# 🔐 Password Strength Checker Tool (Python GUI)
 
-🔐 Password Complexity Checker - GUI (Tkinter) A simple and visually appealing Python GUI tool that checks the strength of a password based on multiple criteria. This project was built as part of my internship at ProDigy Infotech for the Cybersecurity domain.
+This project is a **Password Strength Checker Tool** developed using Python and Tkinter.  
+Built as part of my internship at **Prodigy Infotech**, the tool helps users evaluate the strength of their passwords based on common security rules.
 
-🧠 Features ✅ Real-time password strength feedback
+It provides **instant feedback** on password quality — encouraging the use of strong, secure passwords.
 
-✅ Checks for:
+---
 
-Minimum length (8 characters)
+## 🚀 Features
 
-Uppercase letters
+- GUI-based password input
+- Real-time strength evaluation
+- Visual feedback (Weak, Moderate, Strong)
+- Checks for:
+  - Minimum length
+  - Use of uppercase and lowercase letters
+  - Digits
+  - Special characters
 
-Lowercase letters
+---
 
-Numbers
+## 🛠️ Tech Stack
 
-Special characters (e.g., !@#$%)
+- Python
+- `Tkinter` for GUI
+- `re` (Regular Expressions) for pattern matching
 
-✅ Strength levels:
+---
 
-🔴 Weak (Red)
+## 📋 How It Works
 
-🟡 Moderate (Yellow)
+1. **Enter a password** in the input field.
+2. The tool checks for:
+   - Length (at least 8 characters)
+   - Uppercase & lowercase letters
+   - Digits (0–9)
+   - Special characters (e.g. !, @, #, etc.)
+3. **Strength levels** are evaluated and displayed as:
+   - 🔴 Weak
+   - 🟡 Moderate
+   - 🟢 Strong
 
-🟢 Strong (Green)
+4. User receives a recommendation message to improve password security.
 
-✅ Clean, red-themed GUI using Tkinter
+---
 
-✅ Beginner-friendly Python project
+## 📦 Installation
 
-🛠 Requirements Python 3.x
-
-Tkinter (usually comes pre-installed with Python)
-
-No external libraries needed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/password-strength-checker.git
+   cd password-strength-checker
